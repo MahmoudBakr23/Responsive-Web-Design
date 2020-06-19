@@ -5,14 +5,14 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 header {
   background-color: black;
   display: flex;
   justify-content: space-between;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header ul {
@@ -41,8 +41,7 @@ header ul li a:hover {
 }
 
 nav {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 nav .ul {
@@ -90,7 +89,7 @@ nav ul {
 }
 
 .conference span {
-  font-weight:300;
+  font-weight: 300;
   font-size: 0.9em;
 }
 
@@ -163,7 +162,8 @@ main {
 .article-header p {
   color: gray;
   font-size: 0.9em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 15px;
 }
 
@@ -176,7 +176,8 @@ main {
 .article-footer h1 {
   font-size: 3.5em;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 50px;
   margin-left: 1%;
   margin-bottom: 0;
@@ -208,7 +209,8 @@ main {
 
 .article-2 h1 {
   font-size: 1.8em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
   line-height: 30px;
   margin-top: 20%;
@@ -235,7 +237,8 @@ main {
   color: white;
   line-height: 25px;
   margin: 0 0 0 2%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .article-3 ul {
@@ -271,7 +274,7 @@ main {
 
 .div-header1 h2 {
   margin: 5% 0 0 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
 }
 
@@ -281,14 +284,14 @@ main {
 }
 
 .grid .news-header {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
 
 .grid .news-time {
   color: #999;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
@@ -315,7 +318,7 @@ main {
 .div-header2 h2,
 .div-header22 h2 {
   margin-top: 7%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #f42;
 }
 
@@ -338,11 +341,11 @@ main {
   text-decoration: none;
   color: #f42;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .grid h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   background-color: #f42;
   padding: 10px 0;
@@ -373,25 +376,26 @@ main {
 
 .grid .offer {
   text-align: center;
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
-.grid .offer h4, h5 {
+.grid .offer h4,
+h5 {
   margin: 5px 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .grid .offer-footer {
   border-bottom: 1px solid #f42;
 }
 
-.grid .offer-footer a{
+.grid .offer-footer a {
   text-decoration: none;
   color: #333;
   display: block;
   line-height: 25px;
   font-size: 0.9em;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .grid .footer-footer {
@@ -402,7 +406,7 @@ main {
   text-decoration: none;
   font-size: 0.7em;
   color: #333;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: block;
 }
 
@@ -426,7 +430,7 @@ main {
 
 .grid-3 .div-header {
   margin-top: 7%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #f42;
 }
 
@@ -441,10 +445,11 @@ main {
   background-position: 50% 100%;
 }
 
-.div-body h5, h4 {
+.div-body h5,
+h4 {
   margin: 1% 0 0 2%;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
@@ -471,7 +476,7 @@ main {
 .div-body-2 {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 .div-body-2 img {
@@ -479,7 +484,8 @@ main {
   height: 90px;
 }
 
-.div-body-2 .div-body-text h5, h6 {
+.div-body-2 .div-body-text h5,
+h6 {
   margin: 2% 0 0 5%;
 }
 
@@ -504,6 +510,7 @@ footer {
   background-color: #131313;
   display: grid;
   grid-template-columns: 1fr;
+  width: 100%;
 }
 
 footer div {
@@ -515,6 +522,7 @@ footer .social-icons {
   display: flex;
   justify-content: center;
   padding: 0;
+  width: 100%;
 }
 
 footer .social-icons li {
@@ -541,6 +549,7 @@ footer .footer-details {
   display: flex;
   justify-content: center;
   padding: 0;
+  width: 100%;
 }
 
 .footer-details li {
@@ -611,32 +620,32 @@ footer-2 p img {
     margin-left: 1%;
     margin-bottom: 0;
   }
-  
+
   .article-2 {
     grid-column: 3;
     grid-row: 1;
   }
-  
+
   .article-2 h1 {
     font-size: 1.3em;
     line-height: 30px;
     margin-top: 17%;
     margin-left: 2%;
   }
-  
+
   .article-3 {
     grid-column: 3;
     grid-row: 2;
   }
-  
+
   .article-3 div {
     margin-top: 10%;
   }
-  
+
   .article-3 h5 {
     margin: 0 0 0 2%;
   }
-  
+
   .article-3 h1 {
     font-size: 1.3em;
     line-height: 25px;
@@ -646,7 +655,7 @@ footer-2 p img {
     font-size: 0.9em;
     margin: 10px 5px;
   }
-  
+
   .article-3 ul li a {
     text-decoration: none;
   }
@@ -658,7 +667,7 @@ footer-2 p img {
     grid-gap: 25px;
     margin: 0 2%;
   }
-  
+
   .grid .div-header {
     grid-area: header;
   }
@@ -678,22 +687,22 @@ footer-2 p img {
     margin-top: 2%;
     padding: 0;
   }
-  
+
   .div-header2 ul li,
   .div-header22 ul li {
     border-right: 2px solid #f42;
     padding: 0;
-}
-  
+  }
+
   .div-header2 ul li a,
   .div-header22 ul li a {
     padding: 0 15px;
     text-decoration: none;
     color: #f42;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-}
-  
+    font-family: "Roboto", sans-serif;
+  }
+
   .removable {
     display: none;
   }
@@ -702,11 +711,11 @@ footer-2 p img {
     padding: 10px 80px;
     text-align: left;
   }
-  
+
   .grid .grid-img {
     margin-top: -4.5%;
   }
-  
+
   .grid .offer {
     text-align: left;
   }
@@ -714,8 +723,9 @@ footer-2 p img {
   .grid .offer h5 {
     margin-top: -5%;
   }
-  
-  .grid .offer h4, h5 {
+
+  .grid .offer h4,
+  h5 {
     margin: 10px 75px;
   }
 
@@ -739,14 +749,16 @@ footer-2 p img {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 10%;
+    width: 100%;
   }
-  
+
   footer .social-icons li {
     margin: 0 -1.5%;
   }
 
   .footer-details li {
     margin: 0 -1%;
+    width: 100%;
   }
 
   .footer-2 p {
@@ -759,7 +771,7 @@ footer-2 p img {
   header {
     margin-left: 11%;
   }
-  
+
   .uls ul {
     margin: -3.5% 11%;
   }
@@ -780,7 +792,7 @@ footer-2 p img {
   }
 
   nav .ul ul {
-    margin-left: 80%;
+    margin-left: 90%;
   }
 
   .second-navbar p {
@@ -803,11 +815,11 @@ footer-2 p img {
     grid-row: 1;
     background: rgba(0, 0, 0, 0.8);
   }
-  
+
   .article-header img {
     display: none;
   }
-  
+
   .article-header p {
     display: none;
   }
@@ -818,32 +830,32 @@ footer-2 p img {
     margin-left: 1%;
     margin-bottom: 0;
   }
-  
+
   .article-2 {
     grid-column: 1;
     grid-row: 2;
   }
-  
+
   .article-2 h1 {
     font-size: 1.3em;
     line-height: 30px;
     margin-top: 17%;
     margin-left: 2%;
   }
-  
+
   .article-3 {
     grid-column: 1;
     grid-row: 3;
   }
-  
+
   .article-3 div {
     margin-top: 10%;
   }
-  
+
   .article-3 h5 {
     margin: 0 0 0 2%;
   }
-  
+
   .article-3 h1 {
     font-size: 1.3em;
     line-height: 25px;
@@ -853,7 +865,7 @@ footer-2 p img {
     font-size: 0.9em;
     margin: 10px 5px;
   }
-  
+
   .article-3 ul li a {
     text-decoration: none;
   }
@@ -865,12 +877,12 @@ footer-2 p img {
     grid-gap: 50px;
     margin: 0 2%;
   }
-  
+
   .grid img {
     width: 13%;
     height: 80px;
   }
-  
+
   .grid .news-header {
     font-size: 16px;
     font-weight: 700;
@@ -878,7 +890,7 @@ footer-2 p img {
     margin-top: -13%;
     display: block;
   }
-  
+
   .grid .news-time {
     margin-left: 15%;
     margin-top: -2%;
@@ -894,25 +906,25 @@ footer-2 p img {
     margin-top: 2%;
     padding: 0;
   }
-  
+
   .div-header2 ul li {
     border: 0;
     padding: 5px 0;
   }
-  
+
   .div-header2 ul li a {
     padding: 0px;
   }
-  
+
   .grid h3 {
     padding: 10px 80px;
     text-align: left;
   }
-  
+
   .grid .grid-img {
     margin-top: -4.5%;
   }
-  
+
   .grid .offer {
     text-align: left;
   }
@@ -920,8 +932,9 @@ footer-2 p img {
   .grid .offer h5 {
     margin-top: -5%;
   }
-  
-  .grid .offer h4, h5 {
+
+  .grid .offer h4,
+  h5 {
     margin: 10px 75px;
   }
 
@@ -945,14 +958,16 @@ footer-2 p img {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 15%;
+    width: 100%;
   }
-  
+
   footer .social-icons li {
     margin: 0 -1.5%;
   }
 
   .footer-details li {
     margin: 0 -1%;
+    width: 100%;
   }
 
   .footer-2 {
@@ -969,7 +984,7 @@ footer-2 p img {
   header {
     display: none;
   }
-  
+
   nav .uls {
     display: none;
   }
@@ -979,9 +994,9 @@ footer-2 p img {
   }
 
   nav .ul ul {
-    margin-left: 80%;
+    margin-left: 90%;
   }
-  
+
   nav .ul img {
     width: 90px;
     height: 48px;
