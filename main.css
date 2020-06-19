@@ -5,12 +5,14 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 header {
   background-color: black;
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   font-family:
   -apple-system,
   BlinkMacSystemFont,
@@ -22,6 +24,9 @@ header {
   "Open Sans",
   "Helvetica Neue",
   sans-serif;
+=======
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+>>>>>>> 745b7bc4ce836efe5ab92e01d4cc490debc57aad
 }
 
 header ul {
@@ -561,6 +566,7 @@ footer {
   background-color: #131313;
   display: grid;
   grid-template-columns: 1fr;
+  width: 100%;
 }
 
 footer div {
@@ -572,6 +578,7 @@ footer .social-icons {
   display: flex;
   justify-content: center;
   padding: 0;
+  width: 100%;
 }
 
 footer .social-icons li {
@@ -598,6 +605,7 @@ footer .footer-details {
   display: flex;
   justify-content: center;
   padding: 0;
+  width: 100%;
 }
 
 .footer-details li {
@@ -797,6 +805,7 @@ footer-2 p img {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 10%;
+    width: 100%;
   }
 
   footer .social-icons li {
@@ -805,6 +814,7 @@ footer-2 p img {
 
   .footer-details li {
     margin: 0 -1%;
+    width: 100%;
   }
 
   .footer-2 p {
@@ -842,7 +852,7 @@ footer-2 p img {
   }
 
   nav .ul ul {
-    margin-left: 80%;
+    margin-left: 90%;
   }
 
   .second-navbar p {
@@ -1008,6 +1018,7 @@ footer-2 p img {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 15%;
+    width: 100%;
   }
 
   footer .social-icons li {
@@ -1016,6 +1027,7 @@ footer-2 p img {
 
   .footer-details li {
     margin: 0 -1%;
+    width: 100%;
   }
 
   .footer-2 {
@@ -1042,7 +1054,7 @@ footer-2 p img {
   }
 
   nav .ul ul {
-    margin-left: 80%;
+    margin-left: 90%;
   }
 
   nav .ul img {
