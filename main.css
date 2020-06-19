@@ -59,6 +59,11 @@ nav ul li a {
   color: red;
 }
 
+.grid h2 a {
+  text-decoration: none;
+  color: #f42;
+}
+
 .article-footer ul li a {
   color: gray;
   text-decoration: none;
@@ -67,6 +72,14 @@ nav ul li a {
 .article-3 ul li a {
   color: gray;
   text-decoration: none;
+}
+
+.div-header2 p a,
+.div-header22 p a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #f42;
+  font-weight: bold;
 }
 
 header ul li a:hover {
@@ -217,7 +230,7 @@ main {
   font-size: 3.5em;
   color: white;
   font-family:
-   -apple-system,
+    -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
     Roboto,
@@ -354,14 +367,6 @@ main {
   margin: 0;
 }
 
-.div-header2 p a,
-.div-header22 p a {
-  font-size: 1em;
-  text-decoration: none;
-  color: #f42;
-  font-weight: bold;
-}
-
 .div-header2 h2,
 .div-header22 h2 {
   margin-top: 7%;
@@ -408,11 +413,6 @@ main {
   color: black;
 }
 
-.grid h2 a {
-  text-decoration: none;
-  color: #f42;
-}
-
 .grid .grid-img {
   width: 60px;
   height: 60px;
@@ -424,12 +424,6 @@ main {
 .grid .offer {
   text-align: center;
   background-color: rgba(255, 68, 34, 0.08);
-}
-
-.grid .offer h4,
-h5 {
-  margin: 5px 0;
-  font-family: "Roboto", sans-serif;
 }
 
 .grid .offer-footer {
@@ -449,14 +443,6 @@ h5 {
   margin: 10px 10px;
 }
 
-.grid .footer-footer a {
-  text-decoration: none;
-  font-size: 0.7em;
-  color: #333;
-  font-family: "Roboto", sans-serif;
-  display: block;
-}
-
 .grid .footer-footer a span {
   color: #666;
 }
@@ -473,6 +459,14 @@ h5 {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   margin: 1% 10%;
+}
+
+.grid .footer-footer a {
+  text-decoration: none;
+  font-size: 0.7em;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  display: block;
 }
 
 .grid-3 .div-header {
@@ -683,6 +677,11 @@ footer-2 p img {
 
   .article-3 div {
     margin-top: 10%;
+  }
+
+  .grid .offer h4, h5 {
+    margin: 5px 0;
+    font-family: "Roboto", sans-serif;
   }
 
   .article-3 h5 {
