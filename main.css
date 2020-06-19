@@ -955,9 +955,13 @@ footer-2 p img {
     margin: 0 -1%;
   }
 
+  .footer-2 {
+    height: 100%;
+  }
+
   .footer-2 p {
     width: 35%;
-    margin: 2% auto;
+    margin: 10% auto;
     line-height: 20px;
     font-size: 0.9em;
   }
