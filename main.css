@@ -465,15 +465,15 @@ footer div {
   color: #f42;
 }
 
+.grid-3 .div-header h2 a {
+  text-decoration: none;
+  color: #f42;
+}
+
 .grid a:hover,
 .grid .offer-footer a:hover,
 .grid-3 .div-header h2 a:hover {
   color: black;
-}
-
-.grid-3 .div-header h2 a {
-  text-decoration: none;
-  color: #f42;
 }
 
 .div-body-2 .div-body-text h5 a {
@@ -660,7 +660,8 @@ footer .footer-details {
     margin-top: 10%;
   }
 
-  .grid .offer h4, h5 {
+  .grid .offer h4,
+  h5 {
     margin: 5px 0;
     font-family: "Roboto", sans-serif;
   }
@@ -674,6 +675,7 @@ footer .footer-details {
     line-height: 25px;
     margin: 0 0 0 2%;
   }
+
   .article-3 ul li {
     font-size: 0.9em;
     margin: 10px 5px;
@@ -800,6 +802,8 @@ footer .footer-details {
     margin: 2% auto;
     line-height: 20px;
     font-size: 0.9em;
+    color: white;
+    text-align: center;
   }
 
   header {
@@ -821,12 +825,6 @@ footer .footer-details {
   .article-header img {
     margin: 15px;
     display: none;
-  }
-
-  .footer-2 p {
-    color: white;
-    text-align: center;
-    margin-top: 30px;
   }
   
   .footer-2 p span {
@@ -980,11 +978,6 @@ footer .footer-details {
 
   .grid .offer h5 {
     margin-top: -5%;
-  }
-
-  .grid .offer h4,
-  h5 {
-    margin: 10px 75px;
   }
 
   .grid-3 {
