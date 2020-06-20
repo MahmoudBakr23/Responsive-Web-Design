@@ -92,6 +92,13 @@ footer .social-icons li a {
   border: 1px solid #555;
 }
 
+.div-ft ul li a {
+  text-decoration: none;
+  color: #777;
+  font-size: 0.75em;
+  word-spacing: 1px;
+}
+
 header ul li a:hover {
   color: white;
 }
@@ -265,6 +272,11 @@ main {
   list-style: none;
   padding: 0;
   margin: 0 0 0 1%;
+}
+
+.footer-details li {
+  list-style: none;
+  padding: 20px 10px;
 }
 
 .article-footer ul li {
@@ -453,16 +465,15 @@ footer div {
   color: #f42;
 }
 
+.grid a:hover,
+.grid .offer-footer a:hover,
+.grid-3 .div-header h2 a:hover {
+  color: black;
+}
+
 .grid-3 .div-header h2 a {
   text-decoration: none;
   color: #f42;
-}
-
-.div-ft ul li a {
-  text-decoration: none;
-  color: #777;
-  font-size: 0.75em;
-  word-spacing: 1px;
 }
 
 .div-body-2 .div-body-text h5 a {
@@ -480,29 +491,12 @@ footer .social-icons li {
   padding: 55px 10px 10px;
 }
 
-.footer-details li {
-  list-style: none;
-  padding: 20px 10px;
-}
-
-.footer-details li a {
-  text-decoration: none;
-  color: #666;
-  font-size: 0.9em;
-}
-
 footer .social-icons li a:hover {
   background-color: #222;
 }
 
 .footer-details li a:hover {
   color: white;
-}
-
-.grid a:hover,
-.grid .offer-footer a:hover,
-.grid-3 .div-header h2 a:hover {
-  color: black;
 }
 
 .grid .grid-img {
@@ -729,6 +723,12 @@ footer .footer-details {
     list-style: none;
     margin-top: 2%;
     padding: 0;
+  }
+
+  .footer-details li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9em;
   }
 
   .div-header2 ul li,
