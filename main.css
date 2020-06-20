@@ -64,13 +64,21 @@ nav ul li a {
   color: #f42;
 }
 
+.div-body p a {
+  color: #999;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 0 0 2%;
+  font-size: 0.8em;
+}
+
 .div-header2 ul li a,
 .div-header22 ul li a {
-    padding: 0 15px;
-    text-decoration: none;
-    color: #f42;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
+  padding: 0 15px;
+  text-decoration: none;
+  color: #f42;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 footer .social-icons li a {
@@ -104,6 +112,11 @@ nav {
 
 nav .ul {
   display: none;
+}
+
+.grid img {
+  width: 100%;
+  height: 150px;
 }
 
 nav .ul img {
@@ -344,11 +357,6 @@ footer div {
   margin: 1% 10%;
 }
 
-.grid img {
-  width: 100%;
-  height: 150px;
-}
-
 .div-header1 h2 {
   margin: 5% 0 0 0;
   font-family: "Roboto", sans-serif;
@@ -399,15 +407,6 @@ footer div {
   padding: 0;
 }
 
-.div-header2 ul li a,
-.div-header22 ul li a {
-  padding: 0 15px;
-  text-decoration: none;
-  color: #f42;
-  font-weight: bold;
-  font-family: "Roboto", sans-serif;
-}
-
 .grid h3 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -426,14 +425,6 @@ footer div {
   line-height: 25px;
   font-size: 0.9em;
   font-family: "Roboto", sans-serif;
-}
-
-.div-body p a {
-  color: #999;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0 0 0 2%;
-  font-size: 0.8em;
 }
 
 .grid .offer-footer {
@@ -612,6 +603,20 @@ footer .footer-details {
   background-color: black;
   width: 100%;
   height: 5rem;
+}
+
+.footer-2 p {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-2 p span {
+  color: red;
+}
+
+.footer-2 p img {
+  color: white;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -824,7 +829,7 @@ footer .footer-details {
     margin-top: 30px;
   }
   
-  .footer-2 span {
+  .footer-2 p span {
     color: red;
   }
   
@@ -958,10 +963,6 @@ footer .footer-details {
   .div-header2 ul li {
     border: 0;
     padding: 5px 0;
-  }
-
-  .div-header2 ul li a {
-    padding: 0px;
   }
 
   .grid h3 {
