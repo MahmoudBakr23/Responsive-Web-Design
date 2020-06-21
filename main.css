@@ -152,6 +152,12 @@ main {
   margin-bottom: 1em;
 }
 
+.sec-foot p,
+.sec-3 p {
+  color: #999;
+  font-size: 0.9em;
+}
+
 .sec-foot h5 {
   color: white;
   font-size: 1.1em;
@@ -555,7 +561,6 @@ footer {
   .removable-icons a {
     padding: 0 1em;
     font-size: 1em;
-    border-right: 1px solid #999;
   }
 
   .bar-three a {
@@ -564,7 +569,7 @@ footer {
 
   main {
     display: grid;
-    grid-template-columns: 4fr repeat(2, 2fr);
+    grid-template-columns: 4fr repeat(2, 4fr);
     margin-top: 8em;
   }
 
@@ -584,6 +589,10 @@ footer {
   .sec-2 {
     grid-column: 3;
     grid-row: 1;
+  }
+
+  .sec-2 h1 {
+    margin-top: 8em;
   }
 
   .sec-3 {
@@ -673,7 +682,6 @@ footer {
   .removable-icons a {
     padding: 0 1em;
     font-size: 1em;
-    border-right: 1px solid #999;
   }
 
   .bar-three a {
