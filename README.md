@@ -10,7 +10,7 @@ PROJECT: The Next Web Website Clone
 - HTML
 - CSS3
 
-[Live Demo Link](https://rawcdn.githack.com/MahmoudBakr23/Responsive-Web-Design/8160ccaa2945e2dd0af179e6d19253327333b28a/index.html)
+[Live Demo Link](https://rawcdn.githack.com/MahmoudBakr23/Responsive-Web-Design/0c43ad06e7ba3f5813f6f7bfdad77b8281646c5c/index.html)
 
 ## Getting Started
 
