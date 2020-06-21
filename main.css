@@ -32,6 +32,10 @@ header {
   margin: 0 0.6em;
 }
 
+.removable-icons {
+  display: none;
+}
+
 .bar-one a {
   text-decoration: none;
   font-size: 0.8em;
@@ -169,13 +173,6 @@ main {
 .sec-foot h1 {
   font-size: 3.5em;
   color: white;
-}
-
-.sec-1 p,
-.sec-3 p {
-  color: #999;
-  font-size: 0.9em;
-  word-spacing: 2px;
 }
 
 .sec-1 a,
@@ -643,7 +640,7 @@ footer {
   .social-icons a {
     padding: 8px 10px;
   }
-  
+
   .social-list a {
     padding: 0 0.2em;
   }
@@ -668,7 +665,7 @@ footer {
   .bar-two .list-2 {
     display: none;
   }
-
+  
   .removable-icons {
     display: block;
     padding: 1.5em;
