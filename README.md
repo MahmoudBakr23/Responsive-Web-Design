@@ -1,7 +1,7 @@
 # RESPONSIVE WEB DESIGN
 PROJECT: The Next Web Website Clone
 
-![screenshot](./images/Screenshot.JPG)
+![screenshot](screenshot.png)
 
 **This is a clone of The Next Web website**
 
