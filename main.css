@@ -124,8 +124,7 @@ main {
 .sec-1 {
   grid-column: 1/ 3;
   grid-row: 1/3;
-  background: linear-gradient(rgba(231, 71, 71, 0.877), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/cover-image-crowd.png);
+  background: linear-gradient(rgba(231, 71, 71, 0.877), rgba(0, 0, 0, 0.8)), url(./TNW-Images/cover-image-crowd.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -170,8 +169,7 @@ main {
 }
 
 .sec-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/gridded-img6.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./TNW-Images/gridded-img6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -194,8 +192,7 @@ main {
 }
 
 .sec-3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/gridded-img3.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./TNW-Images/gridded-img3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -228,6 +225,59 @@ main {
 
 .news a {
   text-decoration: none;
+}
+
+.funds-address a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.fund-head a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5em;
+}
+
+.fund-footer a,
+.footer-footer a {
+  display: block;
+  padding: 0.5em 1em;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: #444;
+}
+
+.common-text a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+.list-grid-mid a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.list-grid-footer a {
+  color: #999;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.social-icons a {
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid #999;
+  background-color: #666;
+  padding: 10px 12px;
+  color: white;
+}
+
+.social-list a {
+  color: #777;
+  text-decoration: none;
+  padding: 0 0.5em;
+  font-size: 0.9em;
 }
 
 .news h4 a {
@@ -266,20 +316,9 @@ main {
   border-right: 1px solid #f42;
 }
 
-.funds-address a {
-  text-decoration: none;
-  color: #f42;
-}
-
 .fund-head {
   background-color: #f42;
   padding: 0.5em 0;
-}
-
-.fund-head a {
-  color: white;
-  text-decoration: none;
-  margin-left: 5em;
 }
 
 .fund-grid img {
@@ -307,15 +346,6 @@ main {
   border-bottom: 0.1px solid #f42;
 }
 
-.fund-footer a,
-.footer-footer a {
-  display: block;
-  padding: 0.5em 1em;
-  font-size: 0.85em;
-  text-decoration: none;
-  color: #444;
-}
-
 .footer-footer {
   margin-top: 0.5em;
 }
@@ -333,64 +363,56 @@ main {
 }
 
 .apps-body {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/apps.png);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(./TNW-Images/apps.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .gear-body {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/gear.png);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(./TNW-Images/gear.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .tech-body {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/tech.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(./TNW-Images/tech.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .creative-body {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/creative.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(./TNW-Images/creative.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .podium-body {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/podium.png);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(./TNW-Images/podium.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .insights-body {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/insights.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(./TNW-Images/insights.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .launch-body {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/launch.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(./TNW-Images/launch.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .distract-body {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-    url(./TNW-Images/distract.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(./TNW-Images/distract.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -404,12 +426,6 @@ main {
 .common-text h5 {
   color: white;
   font-size: 0.8em;
-}
-
-.common-text a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2em;
 }
 
 .common-text p {
@@ -429,11 +445,6 @@ main {
   padding-top: 1em;
 }
 
-.list-grid-mid a {
-  text-decoration: none;
-  color: #f42;
-}
-
 .list-grid-mid img {
   width: 96px;
   height: 96px;
@@ -446,12 +457,6 @@ main {
 .list-grid-footer li {
   line-height: 25px;
   color: #f42;
-}
-
-.list-grid-footer a {
-  color: #999;
-  text-decoration: none;
-  font-size: 0.9em;
 }
 
 footer {
@@ -477,26 +482,10 @@ footer {
   padding: 0 0.5em;
 }
 
-.social-icons a {
-  text-decoration: none;
-  border-radius: 20px;
-  border: 1px solid #999;
-  background-color: #666;
-  padding: 10px 12px;
-  color: white;
-}
-
 .social-list {
   display: flex;
   list-style: none;
   padding: 1em 0;
-}
-
-.social-list a {
-  color: #777;
-  text-decoration: none;
-  padding: 0 0.5em;
-  font-size: 0.9em;
 }
 
 .second-footer {
@@ -515,8 +504,6 @@ footer {
   font-size: 1.5em;
 }
 
-/* a */
-
 .bar-one a:hover {
   color: white;
 }
@@ -530,12 +517,12 @@ footer {
   cursor: pointer;
 }
 
-.grid-address a:hover,
-.news p a:hover {
+.funds-address a:hover {
   color: black;
 }
 
-.funds-address a:hover {
+.grid-address a:hover,
+.news p a:hover {
   color: black;
 }
 
