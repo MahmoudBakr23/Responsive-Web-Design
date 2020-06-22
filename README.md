@@ -3,6 +3,13 @@ PROJECT: The Next Web Website Clone
 
 ![screenshot](screenshot.png)
 
+**Screenshot for Mid sized screen**
+![mid-screen](mid-screen.png)
+
+**Screenshot for Mobile screen**
+![mobile-screen](mobile-screen.png)
+
+
 **This is a clone of The Next Web website**
 
 ## Built With
