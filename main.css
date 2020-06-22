@@ -524,7 +524,7 @@ footer {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 1023px ) and (max-width: 1300px) {
+@media only screen and (min-width: 1023px) and (max-width: 1300px) {
   .bar-two .list-2 {
     display: none;
   }
